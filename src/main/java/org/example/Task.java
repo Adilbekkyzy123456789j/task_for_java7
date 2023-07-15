@@ -19,8 +19,8 @@ public class Task {
      * @param array = {5, 9, 4, 12, 20, -2};
      *              Например: четвертый максимальный элемент это 5.
      */
-    public void getArray(int[] array) {
-
+    public int getArray(int[] array) {
+        return 0;
     }
 
 
@@ -64,8 +64,8 @@ public class Task {
      * @param a = 8;
      * @return array = {1,2,3,4,5,6,7,8}
      */
-    public String[] buildArray(int a) {
-        return new String[0];
+    public int[] buildArray(int a) {
+        return new int[0];
     }
 
 
@@ -75,15 +75,17 @@ public class Task {
      * то следующее слово опустить на новую строку.
      *
      * @param text {Hello world, my name is Mr.Prospector}
-     *             Вывод на консоль: hello
+     * @return     Hello
      *             world,
      *             my
      *             name
      *             is
      *             Mr.Prospector
+     *
+     *
      */
-    public void method(String text) {
-
+    public String method(String text) {
+        return "";
     }
 
 
